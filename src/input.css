@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* #card1 {
+    @apply bg-green-700; 
+    @apply rounded-md; 
+    @apply px-4;
+    @apply py-4;
+    @apply border-2;
+    @apply  border-green-900;
+    @apply text-white;
+    @apply drop-shadow-lg;
+} */
+
+/* #card1:hover {
+    @apply bg-orange-700; 
+    @apply rounded-md; 
+    @apply px-4;
+    @apply py-4;
+    @apply border-2;
+    @apply  border-green-900;
+    @apply text-yellow-200;
+    @apply drop-shadow-lg;
+} */
