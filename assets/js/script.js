@@ -1,2 +1,3 @@
-var blahEl = document.getElementById("blah");
-var blahhEl = document.querySelector("blahh");
+//var blahEl = document.getElementById("blah");
+var selectEl = document.querySelector("select");
+

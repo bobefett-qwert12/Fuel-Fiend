@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Fuel Fiend!</title>
 </head>
@@ -13,15 +13,27 @@
     </h1>
     <br>
     <div class="container text-white font-semibold text-center mx-auto">
-        I'm just a container
         <div class="grid grid-cols-3 gap-5">
-            <div id="card1" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">Zip Code</div>
-            <div id="card2" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Vehicle Make</div>
-            <div id="card3" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">Vehicle Model</div>
-            <div id="card4" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Vehicle Year</div>
-            <div id="card5" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">City or Highway</div>
-            <div id="card6" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Miles Driven Weekly</div>
+            <div id="card1" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Vehicle Year
+                <select name="Vehicle Year"></select>
+            </div>
+            <div id="card2" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Vehicle Make
+                <select name="Vehicle Make"></select>
+            </div>
+            <div id="card3" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">Vehicle Model
+                <select name="Vehicle Model"></select>
+            </div>
+            <div id="card4" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">Zip Code
+                <select name="Zip Code"></select>
+            </div>
+            <div id="card5" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">City
+                <select name="City"></select>
+            </div>
+            <div id="card6" class="bg-green-800 rounded-md px-4 py-4 border-2 border-gray-700 text-white">Miles Driven Weekly
+                <select name="Weekly Mileage"></select>
+            </div>
         </div>
     </div>
+    <script src="../assets/js/script.js"></script>
 </body>
 </html>
