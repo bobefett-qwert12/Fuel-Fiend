@@ -6,7 +6,7 @@ You are also able to store any vehicles used on your local storage, so you won't
 
 ## Technologies used
 
-To build this application, we used two server-side API's to find the most recent gas prices and fuel economy data points, as well as the css framework, Tailwind. You can find the API used to find gas prices [here](), and the API used for fuel economy data points [here](). If you want, you can also find the most recent version of Tailwind css [here](https://github.com/tailwindlabs/tailwindcss/releases/latest/).
+To build this application, we used the css framework, Tailwind, as well as two server-side API's. One to take a given zip code and find the most recent gas prices for the region using a separate website, and another to find recent fuel economy data points. You can find the API used to translate zip codes to latitude and longitude numbers [here](), and the API used for fuel economy data points [here](). If you want, you can also find the most recent version of Tailwind css [here](https://github.com/tailwindlabs/tailwindcss/releases/latest/).
 
 ## Here's what it looks like:
 
