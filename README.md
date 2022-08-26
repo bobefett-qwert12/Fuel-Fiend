@@ -10,7 +10,7 @@ To build this application, we used two server-side API's to find the most recent
 
 ## Here's what it looks like:
 
-![The starting page of the application.](./images/xxx.png)
+![The starting page of the application.](./images/example.png)
 
 ## Application
 
