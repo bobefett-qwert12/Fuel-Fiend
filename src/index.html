@@ -10,54 +10,55 @@
 
 </head>
 
-<body class="bg-blue-800">
-
-  <h1 class="text-3xl font-semibold py-8 text-white text-center drop-shadow-2xl">
+<body class="bg-gradient-to-r from-slate-500 to-indigo-800">
+<header>
+  <h1 class="text-3xl font-semibold py-8 text-gray-300 text-center drop-shadow-2xl">
     Welcome to Fuel Fiend!
   </h1><br>
+</header>
 
-  <div class="container text-white font-semibold text-center mx-auto">
+  <div class="container text-gray-300 font-semibold text-center mx-auto caret-yellow-400">
 
-    <p>*Find out what the current, average cost of a tank of gas for your car in just a few simple steps</p><br>
+    <p>*Find the current, average cost of a tank of gas for your car in just a few simple steps</p><br>
 
     <div class="grid grid-cols-2 gap-6">
 
       <div id="card1"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        class="bg-slate-600 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleMake" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Make</label>
         <input type="text" id="vehicleMake" maxlength="20"
-          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-gray-700 dark:border-gray-900 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Company Makes Your Vehicle?" required>
 
       </div>
 
       <div id="card2"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        class="bg-slate-600 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleModel" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Model</label>
         <input type="text" id="vehicleModel" maxlength="40"
-          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-gray-700 dark:border-gray-900 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Model?" required>
 
       </div>
 
       <div id="card3"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        class="bg-slate-600 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleYear" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Year</label>
         <input type="number" max="2023" min="1950" value="2022"  id="vehicleYear" maxlength="4"
-          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-gray-700 dark:border-gray-900 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="When Was Your Vehicle Made?" required>
 
       </div>
 
       <div id="card4"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        class="bg-slate-600 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
       
         <label for="zipCode" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Zip Code</label>
         <input type="text" id="zipCode" maxlength="5"
-          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-gray-700 dark:border-gray-900 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter Your Zip Code" required>
 
       </div>
@@ -76,8 +77,9 @@
     </div>
   </div>
   <br>
-  <div class="container text-white bg-green-800 border-4 rounded-md px-7 py-7 font-semibold text-center text-2xl mx-auto">
-    Grand total goes here
+  <div class="container text-slate-200 bg-transparent px-7 py-7 font-semibold text-center text-2xl mx-auto">
+    Average cost: <br>
+    <p>(Total here)</p>
 </body>
 
 </html>
