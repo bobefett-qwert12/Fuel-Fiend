@@ -27,16 +27,17 @@
   </h1>
 
 
-  <div class="container text-gray-400 font-semibold text-center mx-auto caret-orange-500">
+  <div class="container  text-gray-400 font-semibold text-center mx-auto caret-orange-500">
 
-    <p>*Find the current, average cost of a tank of gas for your car in just a few simple steps</p><br>
+    <p>*Find the current, average cost of <span class="text-emerald-500 ">a tank of gas</span> for your car in just a few simple steps</p><br>
 
-    <div class="grid grid-cols-2 gap-6">
+    <div class="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-6">
 
       <div id="card1"
-        class="bg-slate-800 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleMake" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Make</label>
+        
         <input type="text" id="vehicleMake" maxlength="20"
           class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Company Makes Your Vehicle?" required>
@@ -44,9 +45,10 @@
       </div>
 
       <div id="card2"
-        class="bg-slate-800 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleModel" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Model</label>
+        
         <input type="text" id="vehicleModel" maxlength="40"
           class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Model?" required>
@@ -54,9 +56,10 @@
       </div>
 
       <div id="card3"
-        class="bg-slate-800 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="vehicleYear" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Year</label>
+        
         <input type="number" max="2023" min="1950" value="2022" id="vehicleYear" maxlength="4"
           class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="When Was Your Vehicle Made?" required>
@@ -64,9 +67,10 @@
       </div>
 
       <div id="card4"
-        class="bg-slate-800 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
         <label for="zipCode" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Zip Code</label>
+        
         <input type="text" id="zipCode" maxlength="5"
           class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter Your Zip Code" required>
@@ -87,17 +91,16 @@
     </div>
   </div>
   <br>
-  <div class="container text-slate-200 bg-slate-800 h-30 w-56 rounded-md border-2 px-7 py-4 font-semibold text-center text-2xl mx-auto">
-    Average cost: <br>
-    <p>$ 0.00</p>
+  <div class="container bg-opacity-60 text-slate-200 bg-slate-800 h-30 w-60 rounded-md border-2 px-7 py-4 font-semibold text-center text-2xl mx-auto">
+    <p class="text-emerald-500">$ 0.00</p>
 </body>
 
 </html>
 
-<!-- ToDo aka frosting and sprinkles: -->
+<!-- ToDo aka glaze and sprinkles: -->
 <!-- Add dropdown make/model -->
 <!-- Add vehicle manufacturers -->
 <!-- Add fuel logo or icon -->
 <!-- Add hamburger with links and icons for our respective GitHubs -->
-<!-- Add texture or theme -->
-<!-- Add mobile scaling -->
+<!-- Add texture or theme ----DONE-->
+<!-- Add mobile scaling ----DONE-->
