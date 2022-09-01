@@ -88,4 +88,3 @@ function calculate() {
 priceButton.addEventListener('click', calculate);
 
 // var repoList = document.querySelector('ul');
-
