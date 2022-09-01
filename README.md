@@ -10,7 +10,7 @@ To build this application, we used the css framework, Tailwind, as well as two s
 
 ## Here's what it looks like:
 
-![The starting page of the application.](./images/fuelfiend.png)
+![The starting page of the application.](./assets/images/fuelfiend.png)
 
 ## Application
 
