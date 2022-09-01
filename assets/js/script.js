@@ -1,4 +1,3 @@
-
 var gasButton = document.getElementById('gasButton');
 var lat;
 var lon;
