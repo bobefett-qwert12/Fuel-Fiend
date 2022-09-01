@@ -10,54 +10,32 @@
   <title>Fuel Fiend!</title>
 </head>
 
-<!-- <header class="flex text-white py-6 px-8 bold text-center justify-end">
-</header> -->
-
-<!-- <body class="bg-gradient-to-r from-gray-400 to-indigo-900"> -->
-
 <body>
-  
-  <div>
-    
-  </div>
-  <h1 class="text-3xl font-semibold py-8 text-slate-200 text-center drop-shadow-2xl">
+  <div></div>
+  <h1 class="text-3xl font-semibold py-4 text-white text-center drop-shadow-2xl">
     Welcome to Fuel Fiend!
   </h1>
-
-
-  <div class="container  text-gray-400 font-semibold text-center mx-auto caret-orange-500">
-
-    <p>*Find the current, average cost of <span class="text-emerald-500 ">a tank of gas</span> for your car in just a few simple steps</p><br>
-
-    <div class="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-6">
-
+  <div class="container text-gray-100 font-semibold text-center mx-auto caret-orange-500">
+    <p>Find the cost of <span class="text-emerald-500 ">a tank of gas</span> for your vehicle in your area</p><br>
+    <div class="grid xl:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-6">
       <div id="card1"
         class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
-
-        <label for="vehicleMake" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Make</label>
-        
+        <label for="vehicleMake" class="block mb-2 text-large text-gray-700 dark:text-white">Vehicle Make</label>
         <input type="text" id="vehicleMake" maxlength="20"
           class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Company Makes Your Vehicle?" required>
-
       </div>
-
       <div id="card2"
         class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
-
-        <label for="vehicleModel" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Model</label>
-        
+        <label for="vehicleModel" class="block mb-2 text-large text-gray-700 dark:text-white">Vehicle Model</label>
         <input type="text" id="vehicleModel" maxlength="40"
           class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Which Model?" required>
-
       </div>
-
       <div id="card3"
         class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        <label for="vehicleYear" class="block mb-2 text-large text-gray-700 dark:text-white">Vehicle Year</label>
 
-        <label for="vehicleYear" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Vehicle Year</label>
-        
         <input type="number" max="2023" min="1950" value="2022" id="vehicleYear" maxlength="4"
           class="bg-gray-50 border w-full border-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="When Was Your Vehicle Made?" required>
@@ -65,29 +43,37 @@
       </div>
 
       <div id="card4"
-        class="bg-slate-800 bg-opacity-60 hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
+        class="bg-slate-800 bg-opacity-60  hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
-        <label for="zipCode" class="block mb-2 text-large text-gray-700 dark:text-gray-100">Zip Code</label>
-        
+        <label for="zipCode" class="block mb-2 text-large text-gray-700 dark:text-white">Estimated Miles Driven
+          Weekly</label>
+
         <input type="text" id="zipCode" maxlength="5"
           class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Enter Your Zip Code" required>
+          placeholder="Weekly Miles Driven" required>
 
       </div>
 
-      <!-- <div id="card5"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
-        City or Highway?</div>
-      <div id="card6"
-        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
-        Estimated Miles Driven Weekly</div> -->
+      <div id="card5"
+        class="bg-slate-800 bg-opacity-60  hover:shadow-lg rounded-md px-4 py-4 border-2 border-white text-white drop-shadow-2xl">
 
+        <label for="zipCode" class="block mb-2 text-large text-gray-700 dark:text-white">Zip Code</label>
+
+        <input type="text" id="zipCode" maxlength="5"
+          class="bg-gray-50 border w-full border-gray-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-100 p-2.5 dark:bg-zinc-300 dark:border-gray-900 dark:placeholder-gray-900 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Enter Your Zip Code" required><br>
+        <button id="zipButton"
+          class="bg-opacity-40 bg-violet-500 hover:bg-violet-900 text-white font-bolder py-2 px-5 border-3 border-black rounded">
+          Submit
+        </button>
+
+      </div>
     </div>
   </div>
   <br>
-  <div class="container bg-opacity-60 text-slate-200 bg-slate-800 h-30 w-80 rounded-md border-2 px-7 py-4 font-semibold text-center text-2xl mx-auto">
-    <h4>Your Total Price:</h4>
-    <p class="text-emerald-500">$ 0.00</p>
+  <div
+    class="container bg-opacity-60 text-slate-200 bg-slate-800 h-30 w-60 rounded-md border-2 px-6 py-2 font-semibold text-center mx-auto">
+    <p class="text-emerald-500 text-3xl">$ 0.00</p>
 </body>
 
 </html>
@@ -99,3 +85,14 @@
 <!-- Add hamburger with links and icons for our respective GitHubs -->
 <!-- Add texture or theme ----DONE-->
 <!-- Add mobile scaling ----DONE-->
+
+
+
+
+
+      <!-- <div id="card5"
+        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        City or Highway?</div>
+      <div id="card6"
+        class="bg-green-700 hover:shadow-lg rounded-md px-4 py-4 border-2 border-gray-700 text-white drop-shadow-lg">
+        Estimated Miles Driven Weekly</div> -->
